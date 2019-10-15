@@ -121,6 +121,15 @@
   <ItemGroup>
     <ClInclude Include="files.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek1.dat" />
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek2.dat" />
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek3.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\users.txt" />
+    <Text Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\users2.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

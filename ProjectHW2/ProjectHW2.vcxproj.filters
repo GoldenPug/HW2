@@ -27,4 +27,23 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek1.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek2.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\goseek3.dat">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\users.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Desktop\CS2 programs\HOMEWORK 02\users2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
