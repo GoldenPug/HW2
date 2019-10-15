@@ -75,3 +75,41 @@ int getIdFromFile(string filename, istream &in, ostream &out) {
 	}
 
 }
+
+
+/*
+Exercise B: function reads binary files in random access mode
+
+this function takes 2 parameters (string, ostream): string for filename, ostream to print the indices
+*/
+void numberChase(string filename, ostream& out) {
+
+	int i = 0;
+	ifstream file;
+	int num;
+	vector <int> vec;
+
+	//opens a file that contains a list of 4 byte binary integers. 
+	file.open(filename.c_str(), ios::in | ios::binary);
+
+	//reads the first integer to find the index of the next integer
+	while (!file.eof()) {
+
+		file.read((char*)&num, sizeof(int));
+
+		if (file.fail()) {
+			break;
+		}
+
+		vec.push_back(num);
+	}
+
+	//prints index to ostream until it hits a negative integer
+	while (i >= 0) {
+		i = vec[i];
+		out << i << "\n";
+	}
+
+}
+
+//end of file
