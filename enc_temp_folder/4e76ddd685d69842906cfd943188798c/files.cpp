@@ -76,7 +76,6 @@ int getIdFromFile(string filename, istream &in, ostream &out) {
 
 }
 
-//note: maybe array if so do total sze of file / size of character
 
 /*
 Exercise B: function reads binary files in random access mode
