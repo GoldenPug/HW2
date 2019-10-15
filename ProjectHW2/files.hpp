@@ -22,3 +22,9 @@ using std::istream;
 
 //function for exercise a
 int getIdFromFile(string filename, istream &in, ostream &out);
+
+//function for exercise b
+void numberChase(string files, ostream& out);
+
+#endif
+//end of file
